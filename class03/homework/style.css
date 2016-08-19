@@ -1,0 +1,35 @@
+div {
+	width:1000px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #E0E0E0;
+}
+
+
+#nav{
+	width:975px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+p {
+	width: 975px;
+	margin: 10px auto;
+	text-align: center;
+	padding: 20px 10px;
+	background-color: #d47e6a;
+}
+
+.one{
+	color: blue;
+}
+
+.two{
+	color: green;
+}
+
+.three{
+	color: yellow;
+}
