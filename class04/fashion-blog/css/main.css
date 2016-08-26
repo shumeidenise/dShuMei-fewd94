@@ -1,0 +1,17 @@
+body{
+	font-family: Lato, sans-serif;
+}
+
+h1{
+	color:red;
+	font-weight: 300;
+	font-style:italic;
+}
+
+h2, h3{
+	color: gray;
+}
+
+p{
+	width:900px;
+}
