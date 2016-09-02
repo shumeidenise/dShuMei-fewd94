@@ -4,7 +4,7 @@
 /*font-family: 'Source Sans Pro', sans-serif;*/
 
 .wrapper{
-	margin: 0 auto;
+	margin: 0 5%;
 }
 
 
@@ -13,31 +13,42 @@ header{
 	border-bottom: yellow 3px solid;
 	margin: 0px;
 	overflow: auto;
+	padding:10px;
+}
+
+body{
+	font-family: Source Sans Pro, sans-serif;
+	line-height:1em;
 }
 
 section {
 	background-image: url("../img/coworking.jpg");
 	background-size: cover;
 	height:400px;
+	background-position: 0 -100px;
 }
 
 #options{
-	background-color:gray;
+	background-color:#EEEEE;
 	clear:both;
 	overflow:hidden;
-	margin:0 auto;
+	padding:2% 0;
 }
 
 footer{
 	clear:both;
 	background-color: black;
-	height:60px;
+	height:5%;
+	color:white;
+	padding-top:1%;
+	font-family: Source Sans Pro, sans-serif;
 }
 
 nav{
 	float: right;
 	margin:0px;
 	padding-right: 10px;
+	padding-top: 5px;
 }
 
 nav a {
@@ -48,17 +59,37 @@ nav a {
 
 button{
 	font-family: Oswald, sans-serif;
-	width:50px;
-	height:10px;
+	font-size:1em;
+	width:100%;
+	height:50px;
+	background-color: #C6C6C6;
+	display: inline-block
+	padding:4%;
+	margin:0 auto;
+	align:center;
+	border-radius:5px;
+	text-transform: uppercase;
+	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
 }
 
 
 .tagline{
 	font-family: Merriweather, serif;
+	font-style: italic;
+	font-size:20px;
 	background-color: #C6C6C6;
 	margin:0px;
-	padding:5px;
+	padding: 1em 10px;
 	text-align: center;
+}
+
+.tagline del {
+	color: #999;
+}
+
+.emphasize {
+	text-decoration: none;
+	border-bottom: 3px yellow solid;
 }
 
 a{
@@ -73,26 +104,52 @@ a:visited {
 
 h1{
 	color: yellow;
-	font-family: Merriweather, sans-serif;
+	font-family: Merriweather, serif;
 	padding: 10px;
 	margin:0px;
 	font-size:30px;
 	float:left;
 }
 
+h2{
+	font-family: Merriweather, serif;
+	font-size: 25px;
+	padding: 10px;
+}
+
+p{
+	padding:10px;
+	line-height:1.5em;
+}
+
 .meat{
 	float:left;
-	width:30%;
-	/*height:90px;*/
-	padding: 10px;
+	width:25%;
+	font-family: Source Sans Pro, sans-serif;
+	line-height: 2em;
+	padding: 3% 3%;
+/*	margin-left: 2%;
+	margin-right:0%;*/
+	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+}
+
+.meat:lastchild{
+	box-shadow: none;
 }
 
 .callout{
 	background-color: #C6C6C6;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 #float{
-	float:right;
+	background-color: rgba(255,255,255,0.5);
+	float: right;
 	width: 25%;
+	padding:4%;
+	margin:4%;
+}
+
+#specialcall{
+	background-color: yellow;
 }
