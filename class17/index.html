@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JSON API example</title>
+</head>
+<body>
+	<h1 id="output"></h1>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script>
+	var api_key = "9440431d3cdaf71f"
+
+	 $.getJSON("http://api.wunderground.com/api/" + api_key + "/conditions/q/CA/San_Francisco.json", function(json) {
+         $('#output').text(json.current_observation.relative_humidity);
+     });
+	</script>
+</body>
+</html>
