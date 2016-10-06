@@ -1,0 +1,16 @@
+
+body{
+	font-family: Merriweather;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+.req{
+	height:25%;
+	padding:100px;
+}
+
+img{
+	width:100%;
+	height: 100%;
+}
