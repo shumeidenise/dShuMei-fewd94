@@ -5,12 +5,24 @@ body{
 	font-size: 12px;
 }
 
-.req{
-	height:25%;
-	padding:100px;
-}
-
 img{
 	width:100%;
 	height: 100%;
+}
+
+.row {
+	padding:1%;
+}
+
+#prompt{
+	height:12%;
+}
+
+#workbook{
+	height:70%;
+}
+
+#staples{
+	height:18%;
+	background-color:red;
 }
