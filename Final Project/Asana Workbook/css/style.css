@@ -1,0 +1,121 @@
+/*STRUCTURE*/
+body{
+	font-family: 'Amatic SC';
+	font-weight: 500;
+	font-size: 24px;
+-webkit-animation: background 5s cubic-bezier(.45,.03,.65,.99) infinite;
+  animation: background 15s cubic-bezier(.45,.03,.65,.99) infinite;  
+}
+
+
+@-webkit-keyframes background {
+  0% { background-color: #b6aab6 }
+  20% { background-color: #b6aab3; }  
+  35% { background-color: #b6aab0; }
+  50% { background-color: #b6aaad; }
+  70% { background-color: #b6aaaa; }
+  85% { background-color: #aab6aa; }
+  100% { background-color: #aab6b6; }
+}
+
+@keyframes background {
+  0% { background-color: #b6aab6 }
+  20% { background-color: #b6aab3; }  
+  35% { background-color: #b6aab0; }
+  50% { background-color: #b6aaad; }
+  70% { background-color: #b6aaaa; }
+  85% { background-color: #aab6aa; }
+  100% { background-color: #aab6b6; }
+}
+
+#wrapper{
+  padding: 1%;
+  margin: 0 auto;
+}
+
+#mainNav{
+  height:5%;
+  width:100%;
+  margin-bottom:4%;
+}
+
+#workbook{
+  height: 450px;
+  border:#da4949 2px solid;
+  border-radius:10px;
+}
+
+/*#customize{
+  height:200px;
+}*/
+
+/*Formatting*/
+
+div.cf:after {
+  content: ' ';
+  display: block;
+  clear: both;
+  overflow:auto;
+}
+
+/*mainNav*/
+label, select {
+  float:left;
+  margin-right:2%;
+}
+
+.logo img{
+  width:5%;
+  height:5%;
+  float:left;
+  margin: 0% 2%;
+}
+
+.form-inline select {
+   background: transparent;
+   display:inline;
+   padding: 0px;
+   margin:5px;
+   font-size: 42px;
+   font-family: 'Amatic SC';
+   color: #da4949;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 44px;
+   -webkit-appearance: none;
+   }
+
+/*WORKBOOK AREA*/
+
+/*CUSTOMIZE AREA*/
+#customize div {
+  display:inline;
+}
+
+/*ADDITIONAL STYLES*/
+
+h2{
+	font-size: 42px;
+	padding-top: 1%;
+}
+
+h3{
+	font-size: 36px;
+}
+
+ul{
+	display:none;
+}
+
+.row {
+	padding:1%;
+}
+
+#ask{
+	height: 12%;
+}
+
+#staples{
+	height: 18%;
+}

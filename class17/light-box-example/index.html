@@ -4,9 +4,12 @@
 	<link rel="stylesheet" href="css/lightbox.css">
 </head>
 <body>
+	<a href="images/chicken-nose.png" data-lightbox="mylightbox" data-title="nose">
+		<img src="images/chicken-nose.png" alt="" ></a>
 
-	<img src="images/chicken-nose.png" alt="">
-	<img src="images/ghostly-zoots.png" alt="">
+	<a href="images/ghostly-zoots.png" data-lightbox="mylightbox">
+	<img src="images/ghostly-zoots.png" alt=""></a>
+
 	<img src="images/lil-mib.png" alt="">
 	<img src="images/loopy-lou.png" alt="">
 	<img src="images/mr-purple.png" alt="">
@@ -17,5 +20,11 @@
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="js/lightbox.js"></script>
 	<script src="js/app.js"></script>
+	<script>
+		lightbox.option({
+			'wrapAround': true,
+			'showImageNumberLabel': false
+		});
+	</script>
 </body>
 </html>
