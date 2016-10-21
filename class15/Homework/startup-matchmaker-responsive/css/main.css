@@ -164,9 +164,19 @@ footer {
 	padding-top: 2%;
 }
 
+/*nav#burger-response {
+	display:none;
+	font-family: 'Merriweather', serif;
+	font-size: 1.5em;
+	margin: 20px 0 0 0;
+}
+*/
 @media (max-width: 875px) {
 	nav {
 		display: none;
+	}
+	nav#burger-response{
+		display:inline;
 	}
 	#burger{
 		display:block;

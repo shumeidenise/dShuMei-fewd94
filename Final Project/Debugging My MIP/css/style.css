@@ -1,0 +1,141 @@
+/*STRUCTURE*/
+body{
+	font-family: 'Amatic SC';
+	font-weight: 500;
+	font-size: 24px;
+background: linear-gradient(113deg, #a9c9d6, #d6a9cf, #d6a9a9, #edcc90, #a9d6cb);
+background-size: 1000% 1000%;
+-webkit-animation: AnimationName 30s ease infinite;
+animation: AnimationName 45s ease infinite;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+label{
+  font-size: 40px;
+  margin: 0 .4em 0 1em;
+  display:inline-block;
+  clear:left;
+}
+
+.container{
+  padding: 2% 2% 0;
+  text-align: justify;
+  font-size: 0.1px;
+  color:white;
+/*  background: #68b8c4;*/
+  -webkit-backface-visibility: hidden;
+}
+
+#mainNav{
+  padding:2%;
+  height:100px;
+}
+
+.mainNav{
+  height:50px;
+  display:inline-block;
+}
+
+
+.mainNav img{
+  max-width: 100%;
+  max-height:100%;
+}
+
+.container{
+  color:white;
+}
+.container:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.container .mix,
+.container .gap{
+  display: inline-block;
+  width: 30%;
+}
+
+.container .mix{
+  text-align: left;
+  background: #03899c;
+  margin-bottom: 2%;
+  display: none;
+  object-fit:contain;
+}
+
+div.mix {
+  position: relative;
+}
+
+div.mix img {
+  max-width:100%;
+  max-height:100%;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+.container .mix.ff{
+  border-top: 2px solid limegreen;
+}
+
+.container .mix.category-2{
+  border-top: 2px solid yellow;
+}
+
+.container .mix:before{
+  content: '';
+  display: inline-block;
+  padding-top: 60%;
+  color:white;
+  position:relative;
+}
+
+select, option{
+   background: transparent;
+   display:inline;
+   padding: 0px;
+   margin:5px;
+   font-size: 42px;
+   font-family: 'Amatic SC';
+   color: #da4949;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 44px;
+   -webkit-appearance: none;
+   appearance:none;
+   }
+
+@media all and (min-width: 420px){
+  .container .mix,
+  .container .gap{
+  width: 32%;
+  }
+}
+
+@media all and (min-width: 640px){
+  .container .mix,
+  .container .gap{
+    width: 23.5%;
+  }
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Asana Workbook</title>
+	 <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Amatic+SC|Roboto|Josefin+Sans|Merriweather">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav id="mainNav">
+  <div class="mainNav"><img src="img/logo.png"/></div>
+  <div class="mainNav">
+  <label>Today I Want to work on: 
+  <select id="FilterSelect">
+    <option value="all">All</option>
+    <option value=".ff">Category 1</option>
+    <option value=".category-2">Category 2</option>
+  </select>
+  </label>
+  </div>
+ </nav>
+<div id="Container" class="container">
+  <div class="mix d">
+  	<p>Bound angle</p>
+	<img src="img/boundAngle.png" alt=""></div>
+  <div class="mix d ff"></div>
+  <div class="mix d"></div>
+  <div class="mix d"></div>
+  <div class="mix d"></div>
+  <div class="mix d"></div>
+  <div class="mix d"></div>
+  <div class="mix d"></div>
+  
+  <div class="gap"></div>
+  <div class="gap"></div>
+</div>
+<div id="container">
+<!-- User Prompt -->
+<div id="wrapperNav">
+	<div id="mainNav">
+		<div class="logo"><img src="img/logo.png"/></div>
+		<div class="burger"><img src="img/burger.png"/></div>
+		<label>YEAH! Today, I want to work on...</label>&nbsp
+<!-- 		<select id="filterSelect">
+			<option selected>Pick A Thing</option>
+			<option value=".FF">Forward Folds</option>
+			<option id="backbend" class="filter" value=".BB">Backbends</option>
+			<option id="hipopener" class="filter"  value=".HO">Hip Openers</option>
+			<option id="reset" class="filter"  value="all">Show All</option>		
+		</select> -->
+	<select id="FilterSelect">
+	   <option selected>Pick A Thing</option>
+			<option value=".ff">Forward Folds</option>
+			<option value=".BB">Backbends</option>
+			<option class="filter"  value=".HO">Hip Openers</option>
+			<option id="reset" class="filter"  value="all">Show All</option>		
+	</select>
+
+	</div>
+</div>
+
+	<!-- Workbook -->
+<div id="workbook">
+	<div class="bookend"><p>Surya Namaskar</p></div>
+		<div class="mix ff">
+			<p>Bound angle</p>
+			<img src="img/boundAngle.png" alt="">
+		</div>
+	<div class="mix D 1 HO">
+		<p>Frog</p>
+		<img src="img/frog.png" alt="">
+	</div>
+	<div class="mix FF">
+		<p>Paschimottanasana or Seated Forward Fold</p>
+		<img src="img/paschi.png" alt="">
+	</div>
+	<div class="mix HO">
+		<p>Open Angle</p>
+		<img src="img/openAngle.png" alt="">
+	</div>
+	<div class="mix D 1 BB">
+		<p>Bow</p>
+		<img src="img/bow.png" alt="">
+	</div>
+		<div class="mix D 1 BB"><p>Wheel or Chakrasana</p><img src="img/wheel.png" alt="">
+	</div>
+	<div class="mix D 2 BB">
+		<p>One Legged wheel pose or Eka Pada Urdhva Dhanurasana</p><img src="img/ekapadaWheel.png" alt="">
+	</div>
+	<div class="mix D 2 HO">
+		<p>Supine One leg behind your head Eka Pada Sirasana</p>
+		<img src="img/ekapadaSir.png" alt="">
+	</div>
+	<div class="mix D 2 BB">
+		<p>One-Legged King Pigeon or Eka Pada Rajakapotasana</p>
+		<img id="stuff" src="img/kingPig.png" alt="">
+	</div>
+	<div class="mix D 2 BB">
+		<p>Two-Legged Inverted Staff Pose or Dwipāda Viparita Dandāsana</p><img src="img/invertedStaff.png" alt="">
+	</div>
+	<div class="mix D 2 HO">
+		<p>Side split or Monkey or Hanumanasana</p><img src="img/monkey.png" alt="">
+	</div>
+	<div class="mix D 2 HO">
+		<p>Tortoise or Kurmasana</p><img src="img/tortoise.png" alt="">
+	</div>
+	<div class="mix D 2 Inv">
+		<p>Shoulder Stand</p>
+		<img src="img/shoulderstand.png" alt="">
+	</div>
+	<div class="mix D 2 Inv">
+		<p>Salamba Sirasana or Supported Headstand</p>
+		<img src="img/headstand.png" alt="">
+	</div>
+			<div class="bookend"><p>Savasana</p></div>
+	</div>
+
+
+	</div>
+		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="js/jquery.mixitup.js"></script>
+		<script src="js/script.js"></script>
+</body>
+</html>
